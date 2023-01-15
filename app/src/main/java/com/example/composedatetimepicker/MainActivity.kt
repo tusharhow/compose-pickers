@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
             ComposeDateTimePickerTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                    color = MaterialTheme.colors.background,
                 ) {
                     SelectionScreen()
                 }
